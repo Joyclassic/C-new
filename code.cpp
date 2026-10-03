@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-
-    cout << " hello world " << "college aveneu" << endl;
+    int age = 25;
     return 0;
 }
