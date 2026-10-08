@@ -2,12 +2,11 @@ class student:
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
-    def get_avg(self):
-        sum=0
-        for val in self.marks:
-            sum+=val
-        print("hi",self.name,"your avg score is",sum/3)
-
-s1=student("karan",[78,79,90])
-s1.get_avg()
-print(sum)
+    def avg_marks(self):
+       
+        for avg in self.marks:
+            sum=0
+            sum+=avg
+        print("Hi", self.name,"your avg marks in",sum/3)
+s1=student("karan",[35,40,50])
+s1.avg_marks()
