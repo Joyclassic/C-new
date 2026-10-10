@@ -1,11 +1,7 @@
-class car:
-    def _init_(self):
-        self.acc=False
-        self.brk=False
-        self.clutch=False
-    def start(self):
-        self.clutch=True
-        self.acc=True
-    print("car started..")
-car1=car()
-car1.start()
+class account:
+    def __init__(self,bal,acc):
+        self.balance=bal
+        self.account_num =acc
+acc1=account(2000,14567)
+print(acc1.balance)
+print(acc1.account_num)
