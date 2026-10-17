@@ -2,6 +2,5 @@
 using namespace std;
 int main()
 {
-    int age = 25;
-    return 0;
+    cout << "apnacollege " << "hello world" << endl;
 }
