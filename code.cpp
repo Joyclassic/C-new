@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    cout << (3 < 5) << endl;
-    cout << (3 > 5) << endl;
-    cout << (3 <= 3) << endl;
-    cout << (3 == 3) << endl;
-    cout << (3 == 5) << endl;
+
+    int a = 11;
+    int b = ++a;
+    cout << "a is: " << a << endl;
+    cout << "b is: " << b << endl;
 }
