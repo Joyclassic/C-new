@@ -2,9 +2,15 @@
 using namespace std;
 int main()
 {
-
-    int a = 11;
-    int b = ++a;
-    cout << "a is: " << a << endl;
-    cout << "b is: " << b << endl;
+    int n;
+    cout << "enter number: ";
+    cin >> n;
+    if (n % 2 == 0)
+    {
+        cout << "even!\n";
+    }
+    else
+    {
+        cout << "odd";
+    }
 }
