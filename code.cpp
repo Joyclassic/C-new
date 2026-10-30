@@ -2,15 +2,19 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "enter number: ";
-    cin >> n;
-    if (n % 2 == 0)
+    int marks;
+    cout << "enter marks: ";
+    cin >> marks;
+    if (marks > 90)
     {
-        cout << "even!\n";
+        cout << "A+";
+    }
+    else if (marks < 90 && marks > 80)
+    {
+        cout << "A";
     }
     else
     {
-        cout << "odd";
+        cout << "B";
     }
 }
