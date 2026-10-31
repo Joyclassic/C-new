@@ -2,15 +2,7 @@
 using namespace std;
 int main()
 {
-    char ch;
-    cout << "enter character: ";
-    cin >> ch;
-    if (ch >= 65 && ch <= 90)
-    {
-        cout << "uppercase\n";
-    }
-    else
-    {
-        cout << "lowercase\n";
-    }
+
+    int n = 87;
+    cout << (n >= 0 ? "positive" : "negative") << endl;
 }
